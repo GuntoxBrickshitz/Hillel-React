@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Stickers from './components/Stickers';
 
 function App() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <>
+            <header>Stickers App</header>
+            <Stickers />
+        </>
+    );
 }
 
-export default App
+export default App;
